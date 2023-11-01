@@ -1,0 +1,152 @@
+.header {
+    height: 390px;
+}
+
+.menu__list {
+    display: none;
+}
+
+.menu__list::before {
+    width: 23px;
+    height: 19px;
+    position: absolute;
+}
+
+.logo {
+    width: 159px;
+    margin: 42px 0 0 0;
+}
+
+h1 {
+    margin-top: 182px;
+    font-size: 40px;
+}
+
+.section1 {
+    font: bold 18px "Open Sans", sans-serif;
+}
+
+.section1__trends {
+    display: flex;
+    gap: 4px;
+}
+
+.section__header {
+    margin-top: 46px;
+}
+
+.section__border {
+    margin: 9px auto 19px auto;
+}
+
+.section1__block {
+    width: calc((100% - 4px) / 2);
+    min-height: 247px;
+    padding: 0 20px 15px 20px;
+}
+
+.section1__content {
+    padding: 36px 30px 30px;
+    max-width: calc(100% - 2 * 20px);
+}
+
+.section2 {
+    width: calc(100% - 2 * 35px);
+    padding: 0 35px;
+    display: flex;
+    gap: 35px;
+    margin: 50px auto 0;
+}
+
+.post {
+    display: block;
+    gap: 17px;
+    margin-bottom: 42px;
+}
+
+.post-content {
+    width: 100%;
+}
+
+.second-string {
+    margin-top: 18px;
+}
+
+.keywords-section2 {
+    margin: 17px 0 14px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.post-info {
+    gap: 14px;
+    margin: 39px 0 40px;
+}
+
+.post-text {
+    font-size: 15px;
+}
+
+.section4 {
+    width: 271px;
+}
+
+.section4-header {
+    font: bold 14px "Open Sans", sans-serif;
+}
+
+.search-field {
+    background-color: #f4f7f6;
+    width: 203px;
+}
+
+.email-field {
+    width: 252px;
+}
+
+.search-container,
+.subscription-group,
+.tegs-container {
+    margin-bottom: 61px;
+}
+
+.section5 {
+    box-sizing: border-box;
+    width: calc(100% - 2 * 35px);
+    margin: auto;
+  }
+    .section5__products {
+    flex-wrap: wrap; 
+  }
+
+.section5__products {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin-bottom: 50px;
+}
+
+.block-pic {
+    margin-left: 44px;
+}
+
+.section5__content {
+    width: 332px;
+    min-height: 258px;
+}
+
+.product__header,
+.section__header {
+    font: bold 17px "Open Sans", sans-serif;
+}
+
+.footer-box {
+    width: calc(100% - 2 * 35px);
+    margin: 0 35px 50px;
+}
+
+.copyright {
+    margin-bottom: 37px;
+}
